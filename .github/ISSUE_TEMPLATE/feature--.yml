@@ -46,14 +46,5 @@ body:
      label: What are the detail of your suggestion?
      description: Explain what do you want
      render: shell
- - type: checkboxes
-   id: terms
-   attributes:
-     label: Code of Conduct
-     description: By submitting this issue, you agree to follow our [Code of Conduct](htpps://example.com)
-     options:
-       - label: I agree to follow this project's Code of Conduct
-   validations:
-     required: true
 
 ---
