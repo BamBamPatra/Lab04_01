@@ -33,7 +33,7 @@ body:
    attributes:
      label: Version
      description: What version of our software are you running?
-     option:
+     options:
        - 1.0.2 (Default)
        - 1.0.3 (Edge)
      default: 0
@@ -44,7 +44,7 @@ body:
    attributes:
      label: What browsers are you seeing the problem on?
      multiple: true
-     option:
+     options:
        - Firefox
        - Chrome
        - Safari
@@ -60,9 +60,9 @@ body:
    attributes:
      label: Code of Conduct
      description: By submitting this issue, you agree to follow our [Code of Conduct](htpps://example.com)
-     option:
+     options:
        - label: I agree to follow this project's Code of Conduct
    validations:
-      required: true
+     required: true
           
 ---
