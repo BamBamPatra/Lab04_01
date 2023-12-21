@@ -3,7 +3,7 @@
 name: NewFeatureReport
 about: Describe this issue template's purpose here.
 title: '[Feature] : '
-labels: ''
+labels: '[Feature]'
 assignees: 
  - octocat
 body:
